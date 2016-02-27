@@ -2,6 +2,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+Connect your Pandorabot to a Twilio phone number.
+
 ## Requirements
 
 You'll need to sign up for a plan on Chatbots.io to get an application ID and
