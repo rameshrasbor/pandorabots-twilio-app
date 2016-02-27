@@ -8,10 +8,10 @@
       "required": true
     },
     "PANDORABOTS_USER_KEY": {
-      "description": "Your Pandorabots user key",
+      "description": "Your Pandorabots user key"
     },
     "PANDORABOTS_BOTNAME": {
-      "description": "The name of the bot you'd like to connect to",
+      "description": "The name of the bot you'd like to connect to"
     },
     "PANDORABOTS_URL": {
       "description": "The fully qualified URL of the Pandorabots API",
