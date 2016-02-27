@@ -2,6 +2,12 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+You'll need to sign up for a plan on Chatbots.io to get an application ID and
+user key. Once you've done this, you'll need to create a bot via the API (more
+on this [here]())
+
+You also need a Twilio account and an SMS enabled phone number.
+
 Once you've entered all the proper credentials in the configuration screen,
 return to the phone numbers tab in your Twilio dashboard. Click on the
 "Messaging" tab and select "Configure with TwiML App". Create a new TwiML app
