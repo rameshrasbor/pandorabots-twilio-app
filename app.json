@@ -1,0 +1,27 @@
+{
+  "name": "pandorabots-twilio-app",
+  "description": "Connect a Pandorabot to a Twilio phone number",
+  "repository": "https://github.com/djfdev/pandorabots-twilio-app.git",
+  "env": {
+    "PANDORABOTS_APP_ID": {
+      "description": "Your Pandorabots application ID",
+      "required": true
+    },
+    "PANDORABOTS_USER_KEY": {
+      "description": "Your Pandorabots user key",
+    },
+    "PANDORABOTS_BOTNAME": {
+      "description": "The name of the bot you'd like to connect to",
+    },
+    "PANDORABOTS_URL": {
+      "description": "The fully qualified URL of the Pandorabots API",
+      "value": "https://aiaas.pandorabots.com"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio authentication token"
+    }
+  },
+  "addons": [
+    "redistogo"
+  ]
+}
