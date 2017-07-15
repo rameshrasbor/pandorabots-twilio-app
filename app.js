@@ -4,7 +4,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 const express = require('express')
 const bodyParser = require('body-parser')
-const twilio = require('twilio')(process.env.TWILO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN)
+const twilio = require('twilio')
 const redis = require('redis')
 const Bot = require('pb-node')
 
