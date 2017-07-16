@@ -20,7 +20,8 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }))
 //app.use(twilio.webhook([process.env.TWILIO_AUTH_TOKEN]))
-app.use(twilio.webhook([process.env.TWILO_ACCOUNT_SID],[process.env.TWILIO_AUTH_TOKEN]))
+//app.use(twilio.webhook([process.env.TWILO_ACCOUNT_SID],[process.env.TWILIO_AUTH_TOKEN]))
+app.use(twilio.webhook({validate:false}))
 app.use(function(req, res, next) {
   redisClient.get(req.body.From, function(err, clientName) {
     if (clientName) {
